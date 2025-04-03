@@ -1,0 +1,139 @@
+
+/* Algemene styling */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Header styling */
+header {
+    background-color: #333;
+    padding: 20px;
+    color: white;
+}
+
+header .logo {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+header ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: space-around;
+}
+
+header ul li {
+    margin: 0 10px;
+}
+
+header ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+header ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Hero section */
+.hero {
+    background-color: #009688;
+    color: white;
+    text-align: center;
+    padding: 100px 20px;
+}
+
+.hero h1 {
+    font-size: 40px;
+}
+
+.hero p {
+    font-size: 20px;
+}
+
+.cta-button {
+    background-color: #ff5722;
+    padding: 10px 20px;
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    border-radius: 5px;
+}
+
+.cta-button:hover {
+    background-color: #e64a19;
+}
+
+/* Voorraad section */
+#voorraad {
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#voorraad h2 {
+    font-size: 32px;
+}
+
+/* Over ons section */
+#over-ons {
+    background-color: #ffffff;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+#over-ons h2 {
+    font-size: 32px;
+}
+
+/* Contact form */
+#contact {
+    padding: 40px 20px;
+    background-color: #eeeeee;
+}
+
+form {
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-bottom: 5px;
+    font-size: 16px;
+}
+
+form input, form textarea {
+    margin-bottom: 15px;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+form button {
+    background-color: #009688;
+    color: white;
+    padding: 15px;
+    border: none;
+    border-radius: 5px;
+    font-size: 18px;
+}
+
+form button:hover {
+    background-color: #00796b;
+}
+
+/* Footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 10px 0;
+}
